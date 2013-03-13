@@ -17,3 +17,5 @@ class Student < Person
     puts "I have to learn!"
   end
 end
+p = Student.new("Stefan", "12")
+puts p.greet

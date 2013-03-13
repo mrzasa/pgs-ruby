@@ -1,8 +1,9 @@
-def wrap(param)
-  puts param
+def wrap
+  puts "begin"
   yield("yieled")
   puts "end"
 end
-wrap("begin") do |str|
+
+wrap do |str|
   puts "wrapped: #{str}"
 end

@@ -8,3 +8,7 @@ class Status
 end
 st = Status.new
 st.open!
+puts st.status
+st.closed!
+puts st.status
+
